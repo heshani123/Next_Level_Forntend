@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Planning System</title>
-    <link rel="stylesheet" href="css/style/index.css">
-    <link rel="stylesheet" href="css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="css/styles/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.rtl.css">
 </head>
 <body>
 <nav class="z-3">
@@ -20,7 +21,7 @@
             <li><a href="#contact">Contact</a></li>
             <l1 class="user-section">
                 <a  data-bs-toggle="modal"
-                    data-bs-target="#exampleModal11" style="cursor: pointer" id="bokked_Details"> My Booking</a>
+                   data-bs-target="#exampleModal11" style="cursor: pointer" id="bokked_Details"> My Booking</a>
             </l1>
             <l1 class="user-section">
                 <a class="user-name px-2 text-primary font-monospace" data-bs-toggle="modal"
@@ -44,7 +45,7 @@
             </div>
             <div class="modal-body">
                 <h1 class="text-center" id="resetvation">Reservation</h1>
-                <!--                //<p class="text-center" id="reservationDescOnModal">A brief description of the package.</p>-->
+<!--                //<p class="text-center" id="reservationDescOnModal">A brief description of the package.</p>-->
 
 
 
@@ -141,19 +142,19 @@
             </div>
             <div class="modal-body">
                 <form id="userliginForm">
-                    <h1 class="text-center" id="Uname">User Details</h1>
-                    <p class="text-center" id="loginUserName">A brief description of the package.</p>
+                <h1 class="text-center" id="Uname">User Details</h1>
+                <p class="text-center" id="loginUserName">A brief description of the package.</p>
 
-                    <label class="d-none" id="packageI"></label>
-                    <div class="text-center">
-                        <div class="card-body">
-                            <!--                                        <h3>Package Details</h3>-->
-                            <h6>Full Name : <input placeholder="Name" id="loginName"></h6>
-                            <h6>Email : <input placeholder="email" id="loginUserEmail"></h6>
-                            <h6>Address :<input placeholder="Address" id="loginAddrres"></h6>
-                            <h6>Nic : <input placeholder="nic" id="loginNic"></h6>
-                        </div>
+                <label class="d-none" id="packageI"></label>
+                <div class="text-center">
+                    <div class="card-body">
+                        <!--                                        <h3>Package Details</h3>-->
+                        <h6>Full Name : <input placeholder="Name" id="loginName"></h6>
+                        <h6>Email : <input placeholder="email" id="loginUserEmail"></h6>
+                        <h6>Address :<input placeholder="Address" id="loginAddrres"></h6>
+                        <h6>Nic : <input placeholder="nic" id="loginNic"></h6>
                     </div>
+                </div>
                     <button class="btn btn-danger" id="updateUser" type="button">Update</button>
                 </form>
             </div>
